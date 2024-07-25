@@ -20,7 +20,7 @@ stock FixTogglePlayerControllable(playerid, bool:fixfreeze)
 // REPLACE ALL TogglePlayerControllable TO FixTogglePlayerControllable
 
 // to OnPlayerDisconnect
-freeze[playerid] = true; // unfreeze after disconnect
+freeze[playerid] = true; // unfreeze after disconnect (FIX)
 
 // to OnPlayerTimer (Or something similar like OnPlayerUpdate)
 
