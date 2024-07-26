@@ -11,7 +11,7 @@ stock FixTogglePlayerControllable(playerid, bool:fixfreeze)
         freeze[playerid] = false; // freeze
         TogglePlayerControllable(playerid, false);
     }
-    else // unfreeze
+    if(fixfreeze == true) // unfreeze
     {
         freeze[playerid] = true; // unfreeze
         TogglePlayerControllable(playerid, true); // unfreeze
